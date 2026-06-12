@@ -1,0 +1,8 @@
+<app-card
+  [list]="teachers()"
+  [type]="cardType"
+  [imgSrc]="imgSrc"
+  [customClass]="customClass"
+  (newItemAdded)="addNewTeacher()"
+  (itemDeleted)="deleteTeacher($event)" />
+

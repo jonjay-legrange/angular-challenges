@@ -1,0 +1,7 @@
+<app-card
+  [list]="cities()"
+  [type]="cardType"
+  [imgSrc]="imgSrc"
+  [customClass]="customClass"
+  (newItemAdded)="addNewCity()"
+  (itemDeleted)="deleteCity($event)" />

@@ -1,0 +1,7 @@
+<app-card
+  [list]="students()"
+  [type]="cardType"
+  [imgSrc]="imgSrc"
+  [customClass]="customClass"
+  (newItemAdded)="addNewStudent()"
+  (itemDeleted)="deleteStudent($event)" />
